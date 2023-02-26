@@ -1,0 +1,15 @@
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\bin\Debug\net7.0\Ejemplo 1.exe
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\bin\Debug\net7.0\Ejemplo 1.deps.json
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\bin\Debug\net7.0\Ejemplo 1.runtimeconfig.json
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\bin\Debug\net7.0\Ejemplo 1.dll
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\bin\Debug\net7.0\Ejemplo 1.pdb
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.csproj.AssemblyReference.cache
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.AssemblyInfoInputs.cache
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.AssemblyInfo.cs
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.csproj.CoreCompileInputs.cache
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.dll
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\refint\Ejemplo 1.dll
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.pdb
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\Ejemplo 1.genruntimeconfig.cache
+C:\Users\thefe\Documents\Universidad\Semestre 6\Programacion\C#\Ejemplo 1\Ejemplo 1\obj\Debug\net7.0\ref\Ejemplo 1.dll

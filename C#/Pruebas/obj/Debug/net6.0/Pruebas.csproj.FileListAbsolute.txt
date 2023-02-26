@@ -1,0 +1,5 @@
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Pruebas\obj\Debug\net6.0\Pruebas.csproj.AssemblyReference.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Pruebas\obj\Debug\net6.0\Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Pruebas\obj\Debug\net6.0\Pruebas.AssemblyInfoInputs.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Pruebas\obj\Debug\net6.0\Pruebas.AssemblyInfo.cs
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Pruebas\obj\Debug\net6.0\Pruebas.csproj.CoreCompileInputs.cache

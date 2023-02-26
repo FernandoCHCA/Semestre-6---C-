@@ -1,0 +1,15 @@
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\bin\Debug\net6.0\ArregloV2.exe
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\bin\Debug\net6.0\ArregloV2.deps.json
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\bin\Debug\net6.0\ArregloV2.runtimeconfig.json
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\bin\Debug\net6.0\ArregloV2.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\bin\Debug\net6.0\ArregloV2.pdb
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.csproj.AssemblyReference.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.AssemblyInfoInputs.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.AssemblyInfo.cs
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.csproj.CoreCompileInputs.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\refint\ArregloV2.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.pdb
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ArregloV2.genruntimeconfig.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\ArregloV2\obj\Debug\net6.0\ref\ArregloV2.dll
