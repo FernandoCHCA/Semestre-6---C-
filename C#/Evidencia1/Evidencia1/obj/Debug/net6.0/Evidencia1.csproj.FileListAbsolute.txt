@@ -1,0 +1,15 @@
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\bin\Debug\net6.0\Evidencia1.exe
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\bin\Debug\net6.0\Evidencia1.deps.json
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\bin\Debug\net6.0\Evidencia1.runtimeconfig.json
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\bin\Debug\net6.0\Evidencia1.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\bin\Debug\net6.0\Evidencia1.pdb
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.csproj.AssemblyReference.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.AssemblyInfoInputs.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.AssemblyInfo.cs
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.csproj.CoreCompileInputs.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\refint\Evidencia1.dll
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.pdb
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\Evidencia1.genruntimeconfig.cache
+C:\Users\thefe\OneDrive\Documentos\Universidad\Semestre 6\Programacion\C#\Evidencia1\Evidencia1\obj\Debug\net6.0\ref\Evidencia1.dll
