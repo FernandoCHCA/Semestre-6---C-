@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\ArregloV2.csproj": {}
+    "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\ArregloV2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\ArregloV2.csproj": {
+    "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\ArregloV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\ArregloV2.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\ArregloV2.csproj",
         "projectName": "ArregloV2",
-        "projectPath": "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\ArregloV2.csproj",
-        "packagesPath": "C:\\Users\\thefe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\obj\\",
+        "projectPath": "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\ArregloV2.csproj",
+        "packagesPath": "C:\\Users\\Jose Chavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thefe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Chavez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

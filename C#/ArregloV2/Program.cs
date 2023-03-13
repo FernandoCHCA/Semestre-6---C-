@@ -13,7 +13,7 @@ namespace ArregloV2
             // Creando lista donde se guardara el arreglo
             List<string> ListaAlumnos = new List<string>();
             // Creando el PATH donde se guardara el txt
-            string path = "C:\\Users\\thefe\\OneDrive\\Documentos\\Universidad\\Semestre 6\\Programacion\\C#\\ArregloV2\\ListaAlumnos.txt";
+            string path = "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\ArregloV2\\ListaAlumnos.txt";
             // Creando Regex para validar
             Regex regexLetras = new Regex("^[a-zA-Z]+$");
             Regex regexNum = new Regex("^[0-9]+$");
@@ -57,9 +57,9 @@ namespace ArregloV2
                                     Console.Write("-> ");
                                     string MatriculaAlum = Console.ReadLine();
                                     
-                                    // Si no hace match se sale de la opcion de agregar alumno,
-                                    // deberia dar un mensaje que no es permitido lo que se ingreso y que vuelva a escribir,
-                                    // hasta que de con lo indicado.
+                                    // FALLO: Si no hace match se sale de la opcion de agregar alumno,
+                                    //        deberia dar un mensaje que no es permitido lo que se ingreso y que vuelva a escribir,
+                                    //        hasta que de con lo indicado.
                                     if (regexNum.IsMatch(MatriculaAlum))
                                     {
                                         Console.WriteLine("\n*****************************************\n");
@@ -72,6 +72,11 @@ namespace ArregloV2
                                         indice++;
 
                                         // Preguntar si desea ingresar otro dato
+                                        // FALLO: Solo si es "SI" deja agregar otro alumno
+                                        //        pero si se pone cualquier cosa se sale, lo esperado es que
+                                        //        solo se salga si se escribe "NO", y cualquier otra cosa que ingrese
+                                        //        no le permita salirse y le mande un mensaje de error hasta que escriba
+                                        //        lo que se espera.
                                         Console.WriteLine("¿Desea agregar otro Alumno? (SI/NO)");
                                         Console.Write("-> ");
                                         string respuesta = Console.ReadLine();

@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.IO;
+using System.Threading;
 
 namespace Evidencia1
 {
@@ -7,15 +8,24 @@ namespace Evidencia1
         static void Main(string[] args)
         {
             int Resp = 1;
+
             // Creando lista donde se guardará las respuestas
             List<string> ListaResultado = new List<string>();
+            // Declaracion de indices de operaciones
+            int numDivision = 0;
+            int numAreaRombo = 0;
+            int numRaizElevada = 0;
+            int numDivisas = 0;
+
+            // Creando el PATH donde se guardara el txt
+            string path = "C:\\Users\\Jose Chavez\\Documents\\FernandoC\\Semestre-6---C-\\C#\\Evidencia1\\Evidencia1\\ResultadosOP.txt";
             Console.WriteLine("***********************************************************************\n");
             Console.WriteLine("Ingrese su nombre: ");
             Console.Write("-> ");
             string usuario = Console.ReadLine();
             Console.WriteLine("\nBienvenido " + usuario + " al programa! Esperemos y te la pases bien!");
             Console.WriteLine("\n***********************************************************************");
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
 
             do
             {
@@ -25,9 +35,8 @@ namespace Evidencia1
                 Console.WriteLine("1- DIVISION ");
                 Console.WriteLine("2- AREA DE ROMBO ");
                 Console.WriteLine("3- RAIZ ELEVADA ");
-                Console.WriteLine("4- SERIE FIBONACCI ");
-                Console.WriteLine("5- DIVISAS");
-                Console.WriteLine("6- SALIR DEL PROGRAMA");
+                Console.WriteLine("4- DIVISAS");
+                Console.WriteLine("5- SALIR DEL PROGRAMA");
                 Console.WriteLine("\n******************************************");
                 Console.WriteLine("\nSeleccione una opción: ");
                 Console.Write("-> ");
@@ -36,7 +45,8 @@ namespace Evidencia1
                 switch (opcionMenuINT)
                 {
                     case 1:
-                        Thread.Sleep(1000);
+                        Thread.Sleep(500);
+                        numDivision++;
                         Console.Clear();
 
                         Console.WriteLine("*****************************************");
@@ -57,6 +67,7 @@ namespace Evidencia1
                         // Se realizan las operaciones correspondientes
                         int division = primerNumINT / segundoNumINT;
                         int residuo = primerNumINT % segundoNumINT;
+
                         // Se indica que se espere 1 segundo para que aparezca lo siguiente
                         Thread.Sleep(500);
                         Console.WriteLine("\nResultado: " + division + "\nResiduo: " + residuo);
@@ -65,12 +76,51 @@ namespace Evidencia1
                         Console.WriteLine("Gracias por usar nuestro servicio " + usuario);
                         Console.WriteLine("\n*************************************\n");
 
+                        // Preguntar si quiere guardarlo en un txt
+                        string GuardarC1 = "";
+                        while (GuardarC1 != "SI" && GuardarC1 != "NO")
+                        {
+                            Thread.Sleep(500);
+                            Console.WriteLine("¿Quíeres guardar el resultado en un txt? (SI|NO)");
+                            Console.Write("-> ");
+                            GuardarC1 = Console.ReadLine().ToUpper();
+                            switch (GuardarC1)
+                            {
+                                case "SI":
+                                    // Se borra primero lo que hay en la lista, para evitar duplicados
+                                    //ListaResultado.Clear();
+
+                                    // Se guarda lo que hay hasta el momento en la lista "ListaResultado"
+                                    ListaResultado.Add("*************************************\n");
+                                    ListaResultado.Add("Resultado de la #" + numDivision + " division!\n");
+                                    ListaResultado.Add("[ " + primerNumINT + " / " + segundoNumINT + " ]\n");
+                                    ListaResultado.Add("| Resultado: " + division);
+                                    ListaResultado.Add("| Residuo: " + residuo);
+                                    ListaResultado.Add("\n*************************************\n");
+
+                                    // Se guarda en el archivo txt los datos que hay actualmente
+                                    TextWriter tw = new StreamWriter(path);
+                                    foreach (String s in ListaResultado)
+                                        tw.WriteLine(s);
+                                        tw.Close();
+
+                                    Console.WriteLine("\nPerfecto, se han guardado los datos satisfactoriamente!");
+                                    Console.WriteLine("\n*************************************");
+                                    break;
+                                case "NO":
+                                    break;
+                                default:
+                                    Console.WriteLine("No es valido! Vuelva a intentar!\n");
+                                    break;
+                            }
+                        }
+
                         // Preguntar si quiere continuar o no en el programa
                         string SeguirC1 = "";
                         while (SeguirC1 != "SI" && SeguirC1 != "NO")
                         {
                             Thread.Sleep(500);
-                            Console.WriteLine("¿Quíeres seguir continuando con el programa? (SI|NO)");
+                            Console.WriteLine("\n¿Quíeres seguir continuando con el programa? (SI|NO)");
                             Console.Write("-> ");
                             SeguirC1 = Console.ReadLine().ToUpper();
                             switch (SeguirC1)
@@ -89,7 +139,8 @@ namespace Evidencia1
                         break;
 
                     case 2:
-                        Thread.Sleep(1000);
+                        Thread.Sleep(500);
+                        numAreaRombo++;
                         Console.Clear();
 
                         Console.WriteLine("*****************************************");
@@ -105,67 +156,92 @@ namespace Evidencia1
                         string diagonalMenorSTR = Console.ReadLine();
                         int diagonalMenorINT = Convert.ToInt32(diagonalMenorSTR);
                         int areaRombo = diagonalMayorINT * diagonalMenorINT / 2;
-                        // Se indica que se espere 1 segundo para que aparezca lo siguiente
+
+                        // Se indica que se espere medio segundo para que aparezca lo siguiente
                         Thread.Sleep(500);
                         Console.WriteLine("\n*************************************\n");
-                        Console.WriteLine("El area del rombo es : " + areaRombo);
+                        Console.WriteLine("El area del rombo es: " + areaRombo);
+                        Console.WriteLine("\n*************************************\n");
                         Thread.Sleep(500);
                         Console.WriteLine("Gracias por usar nuestro servicio " + usuario);
                         Console.WriteLine("\n*************************************\n");
-                        Console.ReadLine();
+                        
+                        // Preguntar si quiere continuar o no en el programa
+                        string SeguirC2 = "";
+                        while (SeguirC2 != "SI" && SeguirC2 != "NO")
+                        {
+                            Thread.Sleep(500);
+                            Console.WriteLine("¿Quíeres seguir continuando con el programa? (SI|NO)");
+                            Console.Write("-> ");
+                            SeguirC2 = Console.ReadLine().ToUpper();
+                            switch (SeguirC2)
+                            {
+                                case "SI":
+                                    Console.Clear();
+                                    break;
+                                case "NO":
+                                    return;
+                                default:
+                                    Console.WriteLine("\nNo es valido! Vuelva a intentar!\n");
+                                    break;
+                            }
+                        }
+
                         break;
 
                     case 3:
-                        Thread.Sleep(1000);
+                        Thread.Sleep(500);
+                        numRaizElevada++;
                         Console.Clear();
-                        Console.WriteLine("Ingrese el numero que va a sacar raiz: ");
-                        string n1 = Console.ReadLine();
-                        int na = Convert.ToInt32(n1);
+                        Console.WriteLine("Ingrese el numero del que va a sacar raiz: ");
+                        Console.Write("-> ");
+                        string numRaizSTR = Console.ReadLine();
+                        int numRaizINT = Convert.ToInt32(numRaizSTR);
 
                         Console.WriteLine("Ingrese el valor a elevar: ");
-                        string n2 = Console.ReadLine();
-                        int nb = Convert.ToInt32(n2);
+                        Console.Write("-> ");
+                        string numElevadoSTR = Console.ReadLine();
+                        int numElevadoINT = Convert.ToInt32(numElevadoSTR);
 
-                        double re = Math.Sqrt(na);
+                        double re = Math.Sqrt(numRaizINT);
                         int rem = Convert.ToInt32(re);
-                        double re2 = Math.Pow(rem, nb);
+                        double re2 = Math.Pow(rem, numElevadoINT);
+
                         // Se indica que se espere 1 segundo para que aparezca lo siguiente
                         Thread.Sleep(500);
-                        Console.WriteLine("****************************************** ");
-                        Console.WriteLine("Gracias por usar nuestro servicio : " + usuario);
-                        Console.WriteLine("la raiz del numero es : " + rem + ", elevado a " + nb + " sale : " + re2);
+                        Console.WriteLine("\n*************************************\n");
+                        Console.WriteLine("La raiz del numero es: " + rem + ", elevado a " + numElevadoSTR + " sale: " + re2);
+                        Console.WriteLine("\n*************************************\n");
+                        Thread.Sleep(500);
+                        Console.WriteLine("Gracias por usar nuestro servicio: " + usuario);
+                        Console.WriteLine("\n*************************************\n");
 
-                        Console.WriteLine("****************************************** ");
-                        Console.ReadLine();
+                        // Preguntar si quiere continuar o no en el programa
+                        string SeguirC3 = "";
+                        while (SeguirC3 != "SI" && SeguirC3 != "NO")
+                        {
+                            Thread.Sleep(500);
+                            Console.WriteLine("¿Quíeres seguir continuando con el programa? (SI|NO)");
+                            Console.Write("-> ");
+                            SeguirC3 = Console.ReadLine().ToUpper();
+                            switch (SeguirC3)
+                            {
+                                case "SI":
+                                    Console.Clear();
+                                    break;
+                                case "NO":
+                                    return;
+                                default:
+                                    Console.WriteLine("\nNo es valido! Vuelva a intentar!\n");
+                                    break;
+                            }
+                        }
+
                         break;
 
                     case 4:
-                        Thread.Sleep(1000);
-                        Console.Clear();
-                        Console.WriteLine("Insertar los Valores para la serie Fibonacci");
-                        string respuesta_v = Console.ReadLine();
-                        int respuesta_int = Convert.ToInt32(respuesta_v);
-                        int a = 1, b = 0;
-                        // Se indica que se espere 1 segundo para que aparezca lo siguiente
                         Thread.Sleep(500);
-                        Console.WriteLine("****************************************** ");
-                        Console.WriteLine("Gracias por usar nuestro servicio : " + usuario);
-                        Console.WriteLine("*******SERIE FIBORACCI*******");
-                        for (int contador = 0; contador <= respuesta_int; contador++)
-                        {
-
-                            int resultado = a + b;
-                            Console.WriteLine(resultado);
-                            b = a;
-                            a = resultado;
-                        }
-
-                        Console.WriteLine("****************************************** ");
-
-                        break;
-
-                    case 5:
-                        Thread.Sleep(1000);
+                        numDivisas++;
                         Console.Clear();
                         Console.WriteLine("Ingrese la opcion de moneda a convertir: ");
                         Console.WriteLine("****************************************** ");
@@ -191,7 +267,6 @@ namespace Evidencia1
                                 Console.WriteLine("La conversion es de : " + mont + " pesos Mexicanos");
 
                                 Console.WriteLine("****************************************** ");
-                                Console.ReadLine();
                                 break;
 
                             case 2:
@@ -205,7 +280,6 @@ namespace Evidencia1
                                 Console.WriteLine("La conversion es de : " + mont2 + " pesos Mexicanos");
 
                                 Console.WriteLine("****************************************** ");
-                                Console.ReadLine();
                                 break;
 
                             case 3:
@@ -219,7 +293,6 @@ namespace Evidencia1
                                 Console.WriteLine("La conversion es de : " + mont3 + " pesos Mexicanos");
 
                                 Console.WriteLine("****************************************** ");
-                                Console.ReadLine();
                                 break;
 
                             case 4:
@@ -233,7 +306,6 @@ namespace Evidencia1
                                 Console.WriteLine("La conversion es de : " + mont4 + " pesos Mexicanos");
 
                                 Console.WriteLine("****************************************** ");
-                                Console.ReadLine();
                                 break;
 
                             case 5:
@@ -247,14 +319,35 @@ namespace Evidencia1
                                 Console.WriteLine("La conversion es de : " + mont5 + " pesos Mexicanos");
 
                                 Console.WriteLine("****************************************** ");
-                                Console.ReadLine();
                                 break;
 
 
                         }
 
+                        // Preguntar si quiere continuar o no en el programa
+                        string SeguirC5 = "";
+                        while (SeguirC5 != "SI" && SeguirC5 != "NO")
+                        {
+                            Thread.Sleep(500);
+                            Console.WriteLine("¿Quíeres seguir continuando con el programa? (SI|NO)");
+                            Console.Write("-> ");
+                            SeguirC5 = Console.ReadLine().ToUpper();
+                            switch (SeguirC5)
+                            {
+                                case "SI":
+                                    Console.Clear();
+                                    break;
+                                case "NO":
+                                    return;
+                                default:
+                                    Console.WriteLine("\nNo es valido! Vuelva a intentar!\n");
+                                    break;
+                            }
+                        }
+
                         break;
-                    case 6:
+
+                    case 5:
                         Console.Clear();
 
                         // Se acaba el programa y se sale
